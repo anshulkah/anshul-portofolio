@@ -79,15 +79,29 @@ I'm always eager to learn new technologies and apply them to interesting project
       company: "Groww",
       href: "",
       badges: [],
-      location: "Remote",
-      title: "SDE Intern",
+      location: "Onsite, Bengaluru",
+      title: "Software Development Engineer",
+      logoUrl: "/groww.png",
+      start: "July 2026",
+      end: "Present",
+      description: `• Built and enhanced performance monitoring and observability to identify and measure application bottlenecks.
+• Improved network performance monitoring and visibility into request-level metrics.
+• Improved application startup performance by optimizing initialization workflows and offloading non-critical tasks to background execution.
+• Contributed to the React Native 0.81.1 upgrade by resolving native and JavaScript issues and addressing upgrade-related regressions.`,
+    },
+    {
+      company: "Groww",
+      href: "",
+      badges: [],
+      location: "Onsite, Bengaluru",
+      title: "Software Development Intern",
       logoUrl: "/groww.png",
       start: "August 2025",
-      end: "Present",
-      description: `Worked as a React Native Developer in the App Platform Team, contributing to the development and optimization of
-Groww's core mobile infrastructure. Implemented feature toggles or analytics tracking using internal frameworks.
-Fixed critical production bugs and enhanced UI/UX consistency across Groww's Invest App and internal UI component
-library.`,
+      end: "July 2026",
+      description: `• Worked with the React Native App Platform team, contributing to application stability across the Groww mobile application.
+• Fixed critical production issues and improved UI/UX consistency across the Invest App and internal UI component libraries.
+• Resolved issues related to WebView integration, navigation, and deep-link handling in critical application flows.
+• Fixed UI and stability issues involving keyboard handling, SafeArea behavior, modal rendering, loader freezes, and UI flickering.`,
     },
     {
       company: "Stealth Startup",
