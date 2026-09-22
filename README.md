@@ -29,7 +29,7 @@ A sleek, modern portfolio built with Next.js 14, inspired by [cleverdeveloper.in
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AnshulKahar2729/anshul-portofolio.git
+   git clone https://github.com/anshulkah/anshul-portofolio.git
    cd anshul-portofolio
    ```
 

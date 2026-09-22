@@ -14,6 +14,10 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { ExternalLink, Github } from "lucide-react";
 import { motion } from "framer-motion";
+import {
+  ProjectArchitecture,
+  type ArchitectureDiagram,
+} from "@/components/project-architecture";
 
 interface Props {
   title: string;
@@ -24,6 +28,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  architecture?: ArchitectureDiagram;
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -41,6 +46,7 @@ export function ProjectCard({
   link,
   image,
   video,
+  architecture,
   links,
   className,
 }: Props) {
@@ -102,6 +108,8 @@ export function ProjectCard({
               {description}
             </Markdown>
             
+            {architecture && <ProjectArchitecture architecture={architecture} />}
+
             {/* Technologies with animated icons */}
             {tags && tags.length > 0 && (
               <div className="mt-4">

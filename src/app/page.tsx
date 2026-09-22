@@ -307,6 +307,7 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
+                  architecture={"architecture" in project ? project.architecture : undefined}
                   links={project.links}
                 />
               </BlurFade>

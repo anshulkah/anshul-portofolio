@@ -36,12 +36,12 @@ I'm always eager to learn new technologies and apply them to interesting project
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "anshulkahar2211@gmail.com",
+    email: "anshulkahar2511@gmail.com",
     tel: "+917020004857",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/AnshulKahar2729",
+        url: "https://github.com/anshulkah",
         icon: Icons.github,
         navbar: true,
       },
@@ -54,7 +54,7 @@ I'm always eager to learn new technologies and apply them to interesting project
       },
       X: {
         name: "X",
-        url: "https://x.com/anshulKahar2729/",
+        url: "https://x.com/anshulk2511/",
         icon: Icons.x,
 
         navbar: true,
@@ -188,12 +188,16 @@ Maintained and wrote comprehensive test suites with Jest to ensure the reliabili
         },
         {
           type: "Source",
-          href: "https://github.com/AnshulKahar2729/codeui.ai",
+          href: "https://github.com/anshulkah/ codeui.ai",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/codeui.png",
       video: "",
+      architecture: {
+        image: "/architecture/codeuiai-architecture.png",
+        alt: "CodeUI.ai architecture diagram.",
+      },
     },
     {
       title: "Codefox.ai",
@@ -219,12 +223,16 @@ Maintained and wrote comprehensive test suites with Jest to ensure the reliabili
         },
         {
           type: "Source",
-          href: "https://github.com/AnshulKahar2729/codefox.ai",
+          href: "https://github.com/anshulkah/codefox.ai",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/codefox.png",
       video: "",
+      architecture: {
+        image: "/architecture/codefoxai-architecture.png",
+        alt: "Codefox.ai architecture diagram.",
+      },
     },
     {
       title: "Repo GPT",
@@ -250,12 +258,16 @@ Maintained and wrote comprehensive test suites with Jest to ensure the reliabili
         },
         {
           type: "Source",
-          href: "https://github.com/AnshulKahar2729/repo-gpt",
+          href: "https://github.com/anshulkah/repo-gpt",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/repogpt.png",
       video: "",
+      architecture: {
+        image: "/architecture/repogpt-architecture.png",
+        alt: "Repo GPT architecture diagram.",
+      },
     },
     {
       title: "Learnify - LMS",
@@ -282,12 +294,16 @@ Maintained and wrote comprehensive test suites with Jest to ensure the reliabili
         },
         {
           type: "Source",
-          href: "https://github.com/AnshulKahar2729/Learnify-NextJS-LMS",
+          href: "https://github.com/anshulkah/Learnify-NextJS-LMS",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/learnify.png",
       video: "",
+      architecture: {
+        image: "/architecture/learnify-architecture.png",
+        alt: "Learnify LMS architecture diagram showing authoring, learning, backend, identity, and external services.",
+      },
     },
     {
       title: "DiscussIt - Share your thoughts",
@@ -313,12 +329,13 @@ Maintained and wrote comprehensive test suites with Jest to ensure the reliabili
         },
         {
           type: "Source",
-          href: "https://github.com/AnshulKahar2729/Discussit-NextJS",
+          href: "https://github.com/anshulkah/Discussit-NextJS",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/discuss-it.png",
       video: "",
+
     },
   ],
   hackathons: [
