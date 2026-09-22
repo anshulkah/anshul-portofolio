@@ -26,12 +26,9 @@ export function MediumArticles() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetchMediumArticles();
-  }, []);
-
-  const fetchMediumArticles = async () => {
-    try {
-      setLoading(true);
+    const fetchMediumArticles = async () => {
+      try {
+        setLoading(true);
       // Using RSS2JSON service to fetch Medium RSS feed
       const response = await fetch(
         `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@anshulkahar2211`
@@ -61,13 +58,16 @@ export function MediumArticles() {
       } else {
         throw new Error("Invalid response from RSS feed");
       }
-    } catch (err) {
-      console.error("Error fetching Medium articles:", err);
-      setError("Unable to load articles at the moment");
-    } finally {
-      setLoading(false);
-    }
-  };
+      } catch (err) {
+        console.error("Error fetching Medium articles:", err);
+        setError("Unable to load articles at the moment");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchMediumArticles();
+  }, []);
 
   const extractImageFromContent = (content: string): string | undefined => {
     const imgRegex = /<img[^>]+src="([^">]+)"/;

@@ -191,7 +191,7 @@ export function NetworkLatencyTester() {
       {results.length === 0 && !testing && (
         <div className="text-center py-12 text-muted-foreground">
           <TrendingUp className="h-12 w-12 mx-auto mb-3 opacity-50" />
-          <p>Click "Test Now" to measure network latency</p>
+          <p>Click &quot;Test Now&quot; to measure network latency</p>
         </div>
       )}
     </div>
